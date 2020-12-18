@@ -3,7 +3,6 @@
 //  Data Structure Algorithms
 //
 //  Created by Sharad Kangude on 30/11/20.
-//  Copyright © 2020 Sharad Kangude. All rights reserved.
 //
 
 #include <iostream>
@@ -150,7 +149,8 @@ int main(){
               <<"5. update node by key"<<endl
               <<"6. print"<<endl
               <<"9. clear screen"<<endl
-    <<"0. exit"<<endl<<"input :";cin>>option;
+              <<"0. exit"<<endl<<"input :";
+              cin>>option;
         Node* n1 = new Node();
         system("clear");
     switch (option) {
