@@ -82,7 +82,8 @@ int main(){
               <<"6. isFull"<<endl
               <<"9. clear screen"<<endl
     <<"0. exit"<<endl<<"input :";cin>>x;
-        system("clear");
+        //system("clear");
+        cout<<"\033[2J\033[1;1H"<<flush;
     switch (x) {
         case 0:
             cout<<"Exiting...."<<endl;
@@ -108,7 +109,8 @@ int main(){
             cout<<"isFull : "<<queue.isFull()<<endl;
             break;
         case 9:
-            system("clear");
+            //system("clear");
+            cout<<"\033[2J\033[1;1H"<<flush;
             break;
         default:
             cout<<"invalid choice."<<endl;
