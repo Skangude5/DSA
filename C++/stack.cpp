@@ -132,6 +132,6 @@ int main(){
         default:
             cout<<"invalid choice."<<endl;
     }
-    }while(x!=0)
+    }while(x!=0);
     return 0;
 }
